@@ -42,7 +42,7 @@ public class Main {
         BookingThread t3 = new BookingThread("Christine", system);
         BookingThread t4 = new BookingThread("David", system);
         BookingThread t5 = new BookingThread("Eve", system);
-        BookingThread t6 = new BookingThread("Frank", system); // This one may not get a ticket
+        BookingThread t6 = new BookingThread("Frank", system); 
 
         t1.start();
         t2.start();
